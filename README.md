@@ -55,11 +55,11 @@ The results are compared for two genres: Drama and Animation. Neural network mod
 
 |       Model       |    Drama (F1 score)  |   Animation (F1 score) |
 |-------------------|----------------------|------------------------|
-| Weighted logistic |        0.58          |         0.18           |
-| Decision Tree     |        0.37          |         0.09           |
-| Random Forest     |        0.43          |         0.07           |
-| Ada Boosting      |        0.47          |         0.15           |
-| **Neural Network**|      **0.94**        |         0.11           |
+| Weighted logistic |0.58                  |0.18                    |
+| Decision Tree     |0.37                  |0.09                    |
+| Random Forest     |0.43                  |0.07                    |
+| Ada Boosting      |0.47                  |0.15                    |
+| **Neural Network**|**0.94**              |0.11                    |
 
 Note: for animation, the neural network model was trained on balanced classes. However, the performance of neural network model was not better than the traditional models. A possible reason is that there were not enough data to train the neural net after subsamping the major class. 
 
